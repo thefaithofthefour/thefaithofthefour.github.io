@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const Person = mongoose.model('Person', {
     name: String,
-    Salary: Number,
+    salary: Number,
     approved: Boolean,
 })
 
